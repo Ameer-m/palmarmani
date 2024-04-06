@@ -41,55 +41,38 @@ export default function Home() {
     <>
       <MyModal isOpen={isModalOpen} setIsOpen={setIsModalOpen} />
       <section className="heroImg flex items-center justify-center w-full">
-      <div className="flex flex-col justify-between items-center lg:flex-row w-full px-4 py-5 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
-        <div className="mb-12 lg:max-w-lg lg:pr-5 lg:mb-0 w-full">
-          <div className="max-w-xl mb-6">
-            <h2 className="max-w-lg mb-6 font-sans text-3xl font-bold tracking-tight text-white lg:text-5xl sm:leading-none">
-            Armani Beach{' '}
-              <br className="hidden md:block" />
-              Residences at Palm{" "}
-              <span className="inline-block text-deep-purple-accent-400">
-              Jumeirah by Arada
-              </span>
-            </h2>
-            {/* <p className="text-base text-gray-700 md:text-lg">
-              Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-              accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
-              quae. explicabo.
-            </p> */}
-            <div>
-            <span className="inline text-lg md:text-xl">Starting From</span>
-              <p className="text-3xl lg:text-4xl font-bold">AED 21,500,000</p>
+        <div className="flex flex-col justify-between items-center lg:flex-row w-full px-4 py-5 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
+          <div className="mb-12 lg:max-w-lg lg:pr-5 lg:mb-0 w-full">
+            <div className="max-w-xl mb-6">
+              <h2 className="max-w-lg mb-6 font-sans text-3xl font-bold tracking-tight text-white lg:text-5xl sm:leading-none">
+                Armani Beach{' '}
+                <br className="hidden md:block" />
+                Residences at Palm{" "}
+                <span className="inline-block text-deep-purple-accent-400">
+                  Jumeirah by Arada
+                </span>
+              </h2>
+              <div>
+                <span className="inline text-lg md:text-xl">Starting From</span>
+                <p className="text-3xl lg:text-4xl font-bold">AED 21,500,000</p>
+              </div>
             </div>
           </div>
-          {/* <hr className="mb-6 border-gray-300" /> */}
-          {/* <div className="flex">
-            <a href="/" aria-label="Play Song" className="mr-3">
-              <div className="flex items-center justify-center w-10 h-10 text-white transition duration-300 transform rounded-full shadow-md bg-deep-purple-accent-400 hover:bg-deep-purple-accent-700 hover:scale-110">
-                <svg className="w-6" fill="currentColor" viewBox="0 0 24 24">
-                  <path d="M16.53,11.152l-8-5C8.221,5.958,7.833,5.949,7.515,6.125C7.197,6.302,7,6.636,7,7v10 c0,0.364,0.197,0.698,0.515,0.875C7.667,17.958,7.833,18,8,18c0.184,0,0.368-0.051,0.53-0.152l8-5C16.822,12.665,17,12.345,17,12 S16.822,11.335,16.53,11.152z" />
-                </svg>
-              </div>
-            </a>
-            <div className="flex flex-col">
-              <div className="text-sm font-semibold">
-                Rich the kid &amp; Famous Dex
-              </div>
-              <div className="text-xs text-gray-700">Rich Forever Intro</div>
+          <div className="bg-black/40 rounded-3xl p-8 flex flex-col md:ml-auto mt-10 md:mt-0 border-4 border-gray-300">
+            <div className="mb-5 border-b pb-2 border-white">
+              <h2 className="text-gray-50 text-lg md:text-2xl font-medium title-font capitalize">
+                Please fill in the form
+              </h2>
+              <p className="text-gray-50">
+                Begin your journey to premium living by sharing your details with us.
+              </p>
             </div>
-          </div> */}
+            {/* Lazy load the form component */}
+            <React.Suspense fallback={<div>Loading...</div>}>
+              <MyForm />
+            </React.Suspense>
+          </div>
         </div>
-        <div className="bg-black/40 rounded-3xl p-8 flex flex-col md:ml-auto mt-10 md:mt-0 border-4 border-gray-300">
-        <div className="mb-5 border-b pb-2 border-white">
-
-                      <h2 className="text-gray-50 text-lg md:text-2xl font-medium title-font capitalize">
-                      Please fill in the form
-                      </h2>
-                      <p className="text-gray-50">Begin your journey to premium living by sharing your details with us.</p>
-                    </div>
-        <MyForm />
-        </div>
-      </div>
       </section>
 
       <section>
