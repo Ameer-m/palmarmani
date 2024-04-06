@@ -1,6 +1,6 @@
 const Ghaf = () => {
     return ( 
-        <div>
+        <div className="text-black">
             this is ghaf woods landing page
         </div>
      );
