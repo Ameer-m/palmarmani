@@ -77,64 +77,64 @@ export default function Home() {
 
       <section>
          <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
-      <div className=" mb-10 md:mx-auto sm:text-center md:mb-12">
-        <h2 className="mb-6 font-sans font-bold leading-none tracking-tight text-gray-900  lg:text-5xl md:text-4xl text-3xl md:mx-auto">
-          <span className="relative inline-block">
-            <span className="relative">Armani Beach Residences</span>
-          </span>
-           — Luxury Residences With Panoramic Views Of The Arabian Gulf
-        </h2>
-        <p className=" text-gray-700 text-lg md:text-xl lg:text-2xl ">
-        Living in Armani Beach Residences is an indulgence in opulence. The interiors, crafted by Armani / Casa, exude a blend of modern aesthetics and traditional Japanese design principles. The development includes:
-        </p>
-      </div>
-      <div className="grid max-w-screen-lg gap-8 lg:grid-cols-2 sm:mx-auto">
-        <div className="flex flex-col justify-center">
-          <div className="flex flex-col justify-center items-center">
-              
-            <div className='flex space-x-8 justify-center items-center'>
-              <div className="flex items-center justify-center w-10 h-10 mb-3 rounded-full border-2 border-[#DD3C07] px-2">
-                  <svg className="w-8 h-8" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill="#DD3C07"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <title></title> <g id="Complete"> <g id="tick"> <polyline fill="none" points="3.7 14.3 9.6 19 20.3 5" stroke="#DD3C07" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></polyline> </g> </g> </g></svg>
-              </div>
-              <h6 className="mb-2 font-semibold leading-5 text-black text-md md:text-lg lg:text-xl">
-              Spacious residences with high-end finishes and fittings, and breathtaking sea views
-              </h6>
-            </div>
-              <hr className="w-full my-6 border-gray-300" />
+          <div className=" mb-10 md:mx-auto sm:text-center md:mb-12">
+            <h2 className="mb-6 font-sans font-bold leading-none tracking-tight text-gray-900  lg:text-5xl md:text-4xl text-3xl md:mx-auto">
+              <span className="relative inline-block">
+                <span className="relative">Armani Beach Residences</span>
+              </span>
+              — Luxury Residences With Panoramic Views Of The Arabian Gulf
+            </h2>
+            <p className=" text-gray-700 text-lg md:text-xl lg:text-2xl ">
+            Living in Armani Beach Residences is an indulgence in opulence. The interiors, crafted by Armani / Casa, exude a blend of modern aesthetics and traditional Japanese design principles. The development includes:
+            </p>
           </div>
-          <div className="flex flex-col justify-center items-center">
-              
-            <div className='flex space-x-8 justify-center items-center'>
-              <div className="flex items-center justify-center w-10 h-10 mb-3 rounded-full border-2 border-[#DD3C07] px-2">
-                  <svg className="w-8 h-8" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill="#DD3C07"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <title></title> <g id="Complete"> <g id="tick"> <polyline fill="none" points="3.7 14.3 9.6 19 20.3 5" stroke="#DD3C07" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></polyline> </g> </g> </g></svg>
+          <div className="grid max-w-screen-lg gap-8 lg:grid-cols-2 sm:mx-auto">
+            <div className="flex flex-col justify-center">
+              <div className="flex flex-col justify-center items-center">
+                  
+                <div className='flex space-x-8 justify-center items-center'>
+                  <div className="flex items-center justify-center w-10 h-10 mb-3 rounded-full border-2 border-[#DD3C07] px-2">
+                      <svg className="w-8 h-8" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill="#DD3C07"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <title></title> <g id="Complete"> <g id="tick"> <polyline fill="none" points="3.7 14.3 9.6 19 20.3 5" stroke="#DD3C07" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></polyline> </g> </g> </g></svg>
+                  </div>
+                  <h6 className="mb-2 font-semibold leading-5 text-black text-md md:text-lg lg:text-xl">
+                  Spacious residences with high-end finishes and fittings, and breathtaking sea views
+                  </h6>
+                </div>
+                  <hr className="w-full my-6 border-gray-300" />
               </div>
-              <h6 className="mb-2 font-semibold leading-5 text-black text-md md:text-lg lg:text-xl">
-              Exquisite interiors designed by the legendary Tadao Ando
-              </h6>
+              <div className="flex flex-col justify-center items-center">
+                  
+                <div className='flex space-x-8 justify-center items-center'>
+                  <div className="flex items-center justify-center w-10 h-10 mb-3 rounded-full border-2 border-[#DD3C07] px-2">
+                      <svg className="w-8 h-8" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill="#DD3C07"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <title></title> <g id="Complete"> <g id="tick"> <polyline fill="none" points="3.7 14.3 9.6 19 20.3 5" stroke="#DD3C07" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></polyline> </g> </g> </g></svg>
+                  </div>
+                  <h6 className="mb-2 font-semibold leading-5 text-black text-md md:text-lg lg:text-xl">
+                  Exquisite interiors designed by the legendary Tadao Ando
+                  </h6>
+                </div>
+                  <hr className="w-full my-6 border-gray-300" />
+              </div>
+              <div className="flex flex-col justify-center items-center">
+                  
+                <div className='flex space-x-8 justify-center items-center'>
+                  <div className="flex items-center justify-center w-10 h-10 mb-3 rounded-full border-2 border-[#DD3C07] px-2">
+                      <svg className="w-8 h-8" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill="#DD3C07"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <title></title> <g id="Complete"> <g id="tick"> <polyline fill="none" points="3.7 14.3 9.6 19 20.3 5" stroke="#DD3C07" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></polyline> </g> </g> </g></svg>
+                  </div>
+                  <h6 className="mb-2 font-semibold leading-5 text-black text-md md:text-lg lg:text-xl">Located in the heart of Dubai's most exclusive community</h6>
+                </div>
+              </div>
             </div>
-              <hr className="w-full my-6 border-gray-300" />
-          </div>
-          <div className="flex flex-col justify-center items-center">
-              
-            <div className='flex space-x-8 justify-center items-center'>
-              <div className="flex items-center justify-center w-10 h-10 mb-3 rounded-full border-2 border-[#DD3C07] px-2">
-                  <svg className="w-8 h-8" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill="#DD3C07"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <title></title> <g id="Complete"> <g id="tick"> <polyline fill="none" points="3.7 14.3 9.6 19 20.3 5" stroke="#DD3C07" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></polyline> </g> </g> </g></svg>
-              </div>
-              <h6 className="mb-2 font-semibold leading-5 text-black text-md md:text-lg lg:text-xl">Located in the heart of Dubai's most exclusive community</h6>
+            <div className="flex justify-center items-center rounded-xl overflow-hidden">
+            <Image
+              src="/armani-02.webp"
+              layout="responsive"
+              width={500}  // Original width of your image
+              height={500}
+              alt="Armani Beach Residences"
+            />
             </div>
           </div>
         </div>
-        <div className="flex justify-center items-center rounded-xl overflow-hidden">
-        <Image
-          src="/armani-02.webp"
-          layout="responsive"
-          width={500}  // Original width of your image
-          height={500}
-          alt="Armani Beach Residences"
-        />
-        </div>
-      </div>
-    </div>
       </section>
 
       <section className="px-4 py-5 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-6">
