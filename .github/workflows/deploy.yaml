@@ -39,4 +39,4 @@ jobs:
           sudo docker pull ameerkhanm/mynextapp:latest
           sudo docker stop mynextapp || true
           sudo docker rm mynextapp || true
-          sudo docker run -d --name mynextapp -p 3005:3000 ameerkhanm/mynextapp:latest
+          sudo docker run -d --pull always --name mynextapp -p 3005:3000 ameerkhanm/mynextapp:latest
