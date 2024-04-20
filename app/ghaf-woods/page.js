@@ -1,7 +1,7 @@
 const Ghaf = () => {
     return ( 
         <div className="text-black">
-            Ghaf Woods - v1
+            Ghaf Woods - v2
         </div>
      );
 }
