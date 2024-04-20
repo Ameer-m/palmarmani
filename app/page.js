@@ -41,7 +41,7 @@ export default function Home() {
     <>
       <MyModal isOpen={isModalOpen} setIsOpen={setIsModalOpen} />
       <section className={`heroImg flex items-center justify-center w-full`}>
-      {/* <Image
+      <Image
         src="/palm-armani.webp"
         alt="Palm Armani"
         layout="fill"
@@ -49,7 +49,8 @@ export default function Home() {
         objectPosition="center"
         quality={20}
         className="absolute z-0"
-      /> */}
+        priority
+      />
       <div className="overlay absolute inset-0 z-10"></div>
       <div className="flex flex-col justify-between items-center lg:flex-row w-full px-4 py-5 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20 relative z-20">
         <div className="mb-12 lg:max-w-lg lg:pr-5 lg:mb-0 w-full">
