@@ -234,7 +234,8 @@ export default function Home() {
                 alt="Mini Theatre"
                 width={180}
                 height={37}
-                priority
+                blurDataURL="data:..."
+                placeholder="blur" // Optional blur-up while loading
               />
             </div>
             <h6 className="mb-2 font-semibold leading-5 text-black text-lg md:text-xl">Mini Theatre</h6>
@@ -247,7 +248,8 @@ export default function Home() {
                 alt="Gymnasium"
                 width={180}
                 height={37}
-                priority
+                blurDataURL="data:..."
+                placeholder="blur" // Optional blur-up while loading
               />
             </div>
             <h6 className="mb-2 font-semibold leading-5 text-black text-lg md:text-xl">Gymnasium</h6>
@@ -260,7 +262,8 @@ export default function Home() {
                 alt="Indoor Sports Court"
                 width={180}
                 height={37}
-                priority
+                blurDataURL="data:..."
+                placeholder="blur" // Optional blur-up while loading
               />
             </div>
             <h6 className="mb-2 font-semibold leading-5 text-black text-lg md:text-xl">Indoor Sports Court</h6>
@@ -273,7 +276,8 @@ export default function Home() {
                 alt="Premium Retail Outlets"
                 width={180}
                 height={37}
-                priority
+                blurDataURL="data:..."
+                placeholder="blur" // Optional blur-up while loading
               />
             </div>
             <h6 className="mb-2 font-semibold leading-5 text-black text-lg md:text-xl">Premium Retail Outlets</h6>
