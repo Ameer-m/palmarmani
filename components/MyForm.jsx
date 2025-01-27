@@ -100,6 +100,8 @@ const MyForm = ({style}) => {
         <PhoneInput
           placeholder="Enter phone number"
           defaultCountry="AE"
+          international
+        countryCallingCodeEditable={false}
           numberInputProps={{
             className: `${style === "white" ? 'bg-white/80 text-black' : 'bg-black/80 text-white'} email_Inquire border-b-2 border-gray-300 text-sm focus:ring-blue-500 focus:border-gray-700 block w-full p-2.5 placeholder-gray-200`
           }}

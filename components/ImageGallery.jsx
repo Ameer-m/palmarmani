@@ -2,7 +2,11 @@
 import React, { useState } from 'react';
 import Image from 'next/image';
 import { Swiper, SwiperSlide } from 'swiper/react';
+// import required modules
+import { Navigation } from 'swiper/modules';
+// Import Swiper styles
 import 'swiper/css';
+import 'swiper/css/navigation';
 
 import '../app/globals.css';
 
@@ -31,13 +35,14 @@ const ImageGallery = () => {
   return (
     <>
       <Swiper
-        slidesPerView={'auto'}
-        spaceBetween={30}
+        // slidesPerView={'auto'}
+        // spaceBetween={30}
         className="mySwiper"
+        navigation={true} modules={[Navigation]} 
       >
         {images.map((image, index) => (
           <SwiperSlide key={index} onClick={() => openLightbox(image)}>
-            <div className="image-container">
+            <div className="image-container rounded-2xl overflow-hidden">
               <Image 
                 src={image} 
                 alt={`Slide ${index + 1}`} 

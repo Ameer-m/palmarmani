@@ -83,3 +83,8 @@ body {
   padding: 5px;
   border-bottom: 2px solid #C8D3DD;
 }
+
+.swiper-button-prev, 
+.swiper-button-next {
+  color: #000000;
+}
