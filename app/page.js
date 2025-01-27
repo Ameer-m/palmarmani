@@ -431,7 +431,7 @@ export default function Home() {
     <section className="text-gray-600 body-font bg-gray-100">
       <div className="container px-5 py-24 mx-auto flex flex-col md:flex-row justify-between items-center">
         <div className="w-full md:w-1/2 md:pr-16 lg:pr-0 pr-0">
-          <p className="text-4xl font-black text-black">Property in Dubai<br />
+          <p className="text-4xl font-black text-black">Property in Duba<br />
             Paved path to high ROI
             </p>
           <div className="mt-6 lg:max-w-sm">
