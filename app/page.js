@@ -1,6 +1,6 @@
 "use client";
 import React, { useState, useEffect, useRef } from 'react';
-import MyForm from '@/components/MyForm'
+// import MyForm from '@/components/MyForm'
 import Image from 'next/image'
 import Tabs from '@/components/Tabs';
 import MapBox from '@/components/MapBox';
@@ -9,7 +9,7 @@ import MyModal from '@/components/Mymodal';
 import dynamic from 'next/dynamic';
 
 // Dynamically import MyForm to prevent hydration issues
-// const MyForm = dynamic(() => import('@/components/MyForm'), { ssr: false });
+const MyForm = dynamic(() => import('@/components/MyForm'), { ssr: false });
 // const MapBox = dynamic(() => import('@/components/MapBox'), { ssr: false });
 // // const Tabs = dynamic(() => import('@/components/Tabs'), { ssr: false });
 // const MyModal = dynamic(() => import('@/components/MyModal'), { ssr: false });
